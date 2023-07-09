@@ -3,6 +3,9 @@
 	output: .ascii "A soma de todos os números primos até o valor desejado é: "
 
 .text
+	# O desafio consiste em, dado um número inteiro digitado pelo usuário, o programa deve imprimir a soma de todos
+	# os números de 0 até o número lido (incluso) que são primos. Por exemplo, 10 => 2 + 3 + 5 + 7 = 17.
+
 	#print message
 	li $v0, 4
 	la $a0, mensagem
