@@ -3,6 +3,9 @@
 	mensagem2: .asciiz "Digite o segundo fator: "
 	mensagem3: .asciiz "Produto = "
 .text
+	# O "desafio" do código consiste em realziar a multiplicação de dois números inteiros em Assembly,
+	# porém, sem usar o comando "mult"
+
 	li $v0, 4
 	la $a0, mensagem
 	syscall
